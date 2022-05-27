@@ -16,18 +16,17 @@ export default function Home() {
               <Image src="/images/hodl2buidl-logo.png" height={70} width={100} alt="" />
 						</div>
 						<div className="content">
-							<div className="inner">
-								<h1>Hodl 2 Buidl</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+							<div className="inner flex flex-col items-center">
+								<h1 className="font-bold">Hodl 2 Buidl</h1>
+								<p className="mt-3 w-8/12">Welcome to HODL 2 BUIDL, an implementation of 10x blockchain developers community with on-chain governance and optional build-to-earn model.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
+								{/* <li><a href="#intro">Intro</a></li> */}
+								{/* <li><a href="#work">Work</a></li> */}
 								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#socials">Socials</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -50,37 +49,20 @@ export default function Home() {
 
 							<article id="about">
 								<h2 className="major">About</h2>
-								<span className="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								{/* <span className="image main"><img src="images/pic03.jpg" alt="" /></span> */}
+                <p>HODL 2 BUIDL started as a community meet-up of blockchain developers in early March 2022. Although there was no advertising campaign, a lot of attention was quickly brought to it by crypto, de-fi enthusiasts who discovered the future advantages of the technology and shared their interest on social media.</p>
+                <p className="my-3">In terms of development now we have a team of eleven hungry young blockchain and frontend developers passionate about web3 and DeFi that has bonded to us because of our passion for being on the edge of innovation for a decentralized future. </p>
+                <p>Over time, the shared idea of furthering the development of HODL 2 BUIDL as a community-based project emerged. The H2B community hosts some of the finest developers and experts in the blockchain industry and De-Fi space. Who offered their skills and time to develop the their passionate ideas. Within a short period, the HODL 2 BUIDL DAO was created, giving members of DAO the ability to earn $BUIDL token for successful completion of the proposal. </p>
+                <p className="my-3">From there, HODL 2 BUIDL governance token was seen as the next logical evolution. With so many getting excited to head into the community we had decided to take an action.</p>
 							</article>
 
-							<article id="contact">
-								<h2 className="major">Contact</h2>
-								<form method="post" action="#">
-									<div className="fields">
-										<div className="field half">
-											<label htmlFor="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div className="field half">
-											<label htmlFor="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div className="field">
-											<label htmlFor="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul className="actions">
-										<li><input type="submit" value={"Send Message"} className="primary" /></li>
-										<li><input type="reset" value={"Reset"} /></li>
-									</ul>
-								</form>
+							<article id="socials" className="flex flex-col items-center">
+								<h2 className="major text-center">Socials</h2>
 								<ul className="icons">
-									<li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-									<li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-									<li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-									<li><a href="#" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+									<li><a href="https://twitter.com/hodl2buidl" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
+									{/* <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li> */}
+									<li><a href="https://www.instagram.com/hodl2buidl" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
+									<li><a href="https://github.com/HODL-2-BUIDL" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -319,7 +301,7 @@ export default function Home() {
 					</div>
 
 					<footer id="footer">
-						<p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p className="copyright">&copy; Copyright 2022 HODL 2 BUIDL - All rights reserved.</p>
 					</footer>
 
 			</div>
