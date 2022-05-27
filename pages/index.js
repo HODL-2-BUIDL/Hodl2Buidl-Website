@@ -1,14 +1,16 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <>
 			<div id="wrapper">
 					<header id="header">
-						<div className="logo">
-							<span className="icon fa-gem"></span>
+						<div className="logo flex items-center justify-center">
+              <Image src="/images/hodl2buidl-logo.png" height={70} width={100} alt="" />
 						</div>
 						<div className="content">
 							<div className="inner">
-								<h1>Dimension</h1>
+								<h1>Hodl 2 Buidl</h1>
 								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
 								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
 							</div>

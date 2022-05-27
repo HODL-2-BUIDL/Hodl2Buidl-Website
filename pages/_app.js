@@ -11,11 +11,11 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
 
-      <Script src="js/jquery.min.js"></Script>
-      <Script src="js/browser.min.js"></Script>
-      <Script src="js/breakpoints.min.js"></Script>
-      <Script src="js/util.js"></Script>
-      <Script src="js/main.js"></Script>
+      <Script beforeInteractive src="js/jquery.min.js"></Script>
+      <Script beforeInteractive src="js/browser.min.js"></Script>
+      <Script beforeInteractive src="js/breakpoints.min.js"></Script>
+      <Script beforeInteractive src="js/util.js"></Script>
+      <Script beforeInteractive src="js/main.js"></Script>
 
     </>
   )
