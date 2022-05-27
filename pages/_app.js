@@ -6,17 +6,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Dimension by HTML5 UP</title>
+        <title>Hodl2Buidl</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       </Head>
       <Component {...pageProps} />
-
-      <Script beforeInteractive src="js/jquery.min.js"></Script>
-      <Script beforeInteractive src="js/browser.min.js"></Script>
-      <Script beforeInteractive src="js/breakpoints.min.js"></Script>
-      <Script beforeInteractive src="js/util.js"></Script>
-      <Script beforeInteractive src="js/main.js"></Script>
-
     </>
   )
 
