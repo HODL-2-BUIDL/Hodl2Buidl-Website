@@ -10,6 +10,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       </Head>
       <Component {...pageProps} />
+
+      <Script strategy="beforeInteractive" src="js/jquery.min.js"></Script>
+      <Script strategy="beforeInteractive" src="js/browser.min.js"></Script>
+      <Script strategy="beforeInteractive" src="js/breakpoints.min.js"></Script>
     </>
   )
 
