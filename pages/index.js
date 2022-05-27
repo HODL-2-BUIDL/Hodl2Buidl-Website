@@ -63,6 +63,7 @@ export default function Home() {
 									{/* <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li> */}
 									<li><a href="https://www.instagram.com/hodl2buidl" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
 									<li><a href="https://github.com/HODL-2-BUIDL" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+									<li><a href="https://www.youtube.com/channel/UCer0sxKh0F2ZlKF56t3oifA" className="icon brands fa-youtube"><span className="label">Instagram</span></a></li>
 								</ul>
 							</article>
 
